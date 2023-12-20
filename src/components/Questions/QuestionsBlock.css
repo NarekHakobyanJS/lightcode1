@@ -1,0 +1,53 @@
+.QuestionsBlock{
+    border : 1px solid gray;
+    padding: 5px 15px;
+    margin-top: 15px;
+    border-radius: 16px;
+    max-width: 100%;
+    background: white;
+    transition: .3s all linear;
+}
+
+.QuestionsBlock:hover {
+    box-shadow: 10px 12px 11px 0px rgba(125, 202, 196, 0.75);
+    -webkit-box-shadow: 10px 12px 11px 0px rgba(125, 202, 196, 0.75);
+    -moz-box-shadow: 10px 12px 11px 0px rgba(125, 202, 196, 0.75);
+}
+.QuestionsBlockOneOneActive{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.QuestionsBlockOneOne{
+    cursor: pointer;
+}
+.QuestionsBlockOneOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.QuestionsBlockTwo{
+    font-size: 13px;
+    color : gray;
+}
+
+.QuestionsBlockOneOne h5{
+    font-size: 16px;
+    padding: 4px;
+    font-weight: 300;
+}
+
+.QuestionsBlockTwo{
+    margin: 5px;
+    line-height : 1.4rem;
+}
+
+
+@media (max-width: 444px) {
+    .QuestionsBlockOneOne h5{
+        font-size: 13px;
+    }
+    .QuestionsBlockTwo{
+        font-size: 11px;
+    }
+}

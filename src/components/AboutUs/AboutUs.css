@@ -1,0 +1,41 @@
+.about-us{
+    max-width: 1140px;
+    width: 100%;
+    margin : 0 auto;
+    padding: 50px 0 10px 0;
+}
+
+.aboutUsTitle {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.about-us-block{
+    max-width: 100%;
+}
+
+.about-us-block-img{
+    width: 100%;
+}
+
+.about-us-block-text{
+    padding: 25px;
+    background: white;
+    border-radius: 30px;
+    line-height: 2rem;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+@media (max-width : 500px) {
+    .about-us-block-text {
+        font-size: 13px;
+        line-height: none;
+        height: 450px;
+        overflow-y: scroll;
+    }
+}

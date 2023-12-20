@@ -1,0 +1,14 @@
+.questions{
+    max-width: 1140px;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    margin : 0 auto;
+}
+
+.questions-title{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}

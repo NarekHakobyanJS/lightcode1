@@ -1,0 +1,103 @@
+
+.form-page {
+    max-width: 1140px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+
+.reg-form {
+    max-width: 770px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    height: 400px;
+    background: -webkit-linear-gradient(45deg,#00c9ff, #92fe9d);
+    box-shadow: 10px 12px 21px 0px rgba(125, 202, 196, 0.75);
+    -webkit-box-shadow: 10px 12px 21px 0px rgba(125, 202, 196, 0.75);
+    -moz-box-shadow: 10px 12px 21px 0px rgba(125, 202, 196, 0.75);
+}
+
+.reg-form-img {
+    width: 400px;
+}
+.reg-form-block {
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 660px;
+}
+.reg-form-block input, select, button {
+    width: 300px;
+    height: 35px;
+    border : 1px solid gray;
+    border-radius: 30px;
+    background: transparent;
+    margin: 25px 25px 0 25px;
+}
+.reg-form-block input, select {
+    padding: 0 15px;
+}
+.reg-form-block button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media (max-width:850px) {
+    .reg-form-img{
+        max-width: 350px;
+    }
+}
+
+@media (max-width:753px){
+    .reg-form-img{
+        display: none;
+    }
+    .reg-form-block input, select, button{
+        width: 100%;
+        max-width: 605px;
+    }
+}
+
+@media (max-width:753px) {
+    .reg-form-block input, select, button{
+        width: 100%;
+        max-width: 550px;
+    }
+}
+
+@media (max-width:656px) {
+    .reg-form-block input, select, button{
+        width: 100%;
+        max-width: 450px;
+    }
+}
+
+@media (max-width:550px) {
+    .reg-form-block input, select, button{
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .reg-form-block input, select, button{
+        
+        width: 300px;
+    }
+}
+
+@media (max-width:500px) {
+    .reg-form-block{
+        padding: 0;
+    }
+}
+
+@media (max-width:373px) {
+    .reg-form-block input, select, button{
+        
+        width: 200px;
+    }
+}

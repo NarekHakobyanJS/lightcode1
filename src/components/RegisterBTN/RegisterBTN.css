@@ -1,0 +1,33 @@
+.mainRightBTN{
+    cursor: pointer;
+    display: block;
+    margin : 0 auto;
+    border : none;
+    border-radius: 30px;
+    font-weight: 700;
+    font-style: italic;
+    padding: 7px 14px;
+    background: -webkit-linear-gradient(45deg,#00c9ff, #92fe9d
+    );
+    width: 175px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    color : black;
+}
+
+.course-page-btn{
+    cursor: pointer;
+    border : none;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    padding: 7px 14px;
+    background: -webkit-linear-gradient(45deg,#00c9ff, #92fe9d
+    );
+    width: 175px;
+    height: 45px;
+    text-decoration: none;
+    color : black;
+}

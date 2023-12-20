@@ -1,0 +1,52 @@
+.coursesCard {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: .3s all linear;
+}
+
+.coursesCard:hover{
+  box-shadow: 10px 12px 21px 0px rgba(125, 202, 196, 0.75);
+  -webkit-box-shadow: 10px 12px 21px 0px rgba(125, 202, 196, 0.75);
+  -moz-box-shadow: 10px 12px 21px 0px rgba(125, 202, 196, 0.75);
+}
+.coursesCardTitle {
+  margin: 0;
+  padding: 0;
+}
+
+.coursesCardImageBlock {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.coursesCardImageBlock img {
+  width: 100%;
+}
+
+.container {
+  width: 300px;
+  height: 360px;
+  perspective: 800px;
+}
+
+@media (max-width: 768px){
+  .coursesCard{
+    width: 80%;
+  }
+}
+
+@media (max-width: 560px) {
+  .coursesCard{
+    width: 300px;
+  }
+}
+

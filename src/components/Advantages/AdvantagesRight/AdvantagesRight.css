@@ -1,0 +1,13 @@
+.AdvantagesRightBlock{
+    max-width: 500px;
+}
+
+.AdvantagesRightBlock img {
+    width: 100%;
+}
+
+@media (max-width: 1080px) {
+    .AdvantagesBlock {
+        width: 500px;
+    }
+}
